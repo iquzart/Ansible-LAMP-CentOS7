@@ -1,5 +1,5 @@
 - name: apply common configuration to all nodes
-  hosts: webservers
+  hosts: all
   remote_user: root
 
   roles:
